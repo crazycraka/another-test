@@ -36,17 +36,19 @@ span {
 
 .project-container {
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 50px;
     padding-bottom: 30px;
 
 }
 
+ .right-margin {
+     margin-right: 4vw;
+ }
 .ind-projects {
     height: 134px;
     width: 134px;
     display: inline-block;
-    background-color: #3C510C;
     margin-left: 2vw;
     margin-right: 2vw;
     margin-top: 15px;
