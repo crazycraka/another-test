@@ -1,0 +1,111 @@
+.coolText {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+
+body {
+    background-image: url(https://farm4.staticflickr.com/3920/15155665285_cd6e3e3ad5_k_d.jpg);
+    height: 130vh;
+    position: relative;
+}
+
+.top-header{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    position: relative;
+}
+
+#menu-button {
+    height: 25px;
+    width: 25px;
+    background-color: cornflowerblue;
+    position: absolute;
+    left: 10px;
+    border-radius: 10px;
+}
+
+.vertical-align {
+    position: absolute;
+    top: 25%;
+}
+#sign-in {
+    right: 10px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+    left: 45%;
+}
+
+.navbar {
+    width: 100%;
+    height: 150px;
+    overflow-x:scroll;
+    background-color: white;
+    white-space: nowrap;
+    opacity: .60;
+}
+
+#t-shirt {
+    /*float:left;*/
+}
+#beanie {
+    /*float: left;*/
+}
+
+.greeting {
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.center-text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.inputContainer {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#emailInput {
+    border-radius: 5px;
+    height: 50px;
+}
+#emailButton {
+    width: 175px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: darkorange;
+}
+
+.relative {
+    position: relative
+}
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -100px;
+    background-color: white;
+}
+
+.line-separator{
+
+    height:1px;
+    width: 250px;
+    background:#717171;
+    margin: 0 auto;
+    border-bottom:1px solid #313030;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
