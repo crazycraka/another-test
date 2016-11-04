@@ -1,0 +1,238 @@
+/*main page styling*/
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.flex-magic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+/*HEADING STYLING*/
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: #2B81AF;
+}
+
+
+/*FIRST SECTION*/
+
+.intro-wrapper {
+    background-color: #0D3349;
+    background-image: url(../mediaQuery/wideopen/img/wot-masthead-dark.jpg);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position-x: -100px;
+    zoom: 87%;
+
+    /*height: 100%;*/
+
+}
+
+.intro-text-wrapper {
+    /*background-color: #bdd436;*/
+    color: white;
+    width: 100%;
+    height: 70%;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#intro-first-text {
+    margin: 0;
+}
+
+#intro-second-text {
+    font-size: 50px;
+    margin: 0;
+}
+
+
+.intro-under-text-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto
+}
+
+.div-line {
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 50px;
+    height: 0;
+    margin-top: 12px;
+}
+
+.text-between-div-lines {
+    width: 269px;
+    margin: 0;
+}
+
+.intro-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-button-literal {
+    height: 75px;
+    background-color: #bdd436;
+    width: 300px;
+    border-radius: 50px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.below-intro-wrapper {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0
+}
+
+.below-intro-container {
+    width: 90%;
+    height: 50%;
+    text-align: center;
+}
+
+.below-intro-one {
+    color: #97a2a7;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    letter-spacing: 3px;
+
+}
+
+.below-intro-two {
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+}
+.mechanics {
+    height: 75px;
+    width: 75px;
+    background-image: url(../mediaQuery/wideopen/img/sprite_home.png);
+    background-position: -22px -113px;
+}
+
+.below-intro-text {
+    font-size: 29px;
+    font-family: 'Open Sans', sans-serif;
+    color: #97a2a7;
+    transform: scaleY(1.75);
+    margin-top: 17px;
+}
+
+/*HOW IT WORKS*/
+
+.how-it-works-wrapper {
+    width: 100%;
+    height: 500px;
+    border-style: solid ;
+    border-color: black;
+    border-width: 2px;
+}
+
+.how-it-works-container {
+    width: 100%;
+}
+
+/*SERVICES SUB SECTION OF HOW IT WORKS*/
+
+.services {
+    width: 80%;
+    height: 440px;
+    box-sizing: border-box;
+    color: #97a2a7;
+    text-align: center;
+
+}
+
+.service-image {
+    background-image: url(../mediaQuery/wideopen/img/sprite_home.png);
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 150px;
+    background-position: -300px -100px;
+}
+
+.how-works-link {
+    color: #bdd436;
+    text-decoration: none;
+
+}
+
+.service-arrow {
+    background-image: url(../mediaQuery/wideopen/img/sprite_home.png);
+    height: 50px;
+    width: 100px;
+    background-position: -10px -280px;
+    background-repeat: no-repeat;
+}
+
+/*ABOUT OUR COMPANY, US SECTION, SUB SECTION OF HOW IT WORKS*/
+
+.crooked-arrow {
+    background-image: url(../mediaQuery/wideopen/img/sprite_home.png);
+    height: 110px;
+    width: 90px;
+    background-position: -220px -100px;
+    background-repeat: no-repeat;
+}
+
+/*FIFTH SECTION, WHAT WE DONE REAL GOOD, SECTION, SUB SECTION OF HOW IT WORKS*/
+
+.power-button {
+    background-image: url(../mediaQuery/wideopen/img/sprite_home.png);
+    height: 110px;
+    width: 90px;
+    background-position: -120px -110px;
+    background-repeat: no-repeat;
+}
+
+/*media query for how ti works section*/
+
+@media (min-width: 780px) {
+    .big-flex-magic {
+
+
+
+    }
+    .big-size-adjust {
+        width: 30%;
+        margin; auto;
+    }
+    .how-works-main-div {
+        border-width: 2px;
+        border-color: #000000;
+        border-style: solid;
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
