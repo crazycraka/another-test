@@ -1,0 +1,36 @@
+
+
+ /*BODY STYLING*/
+body {
+    width: 100%;
+    background-color: #007069;
+}
+
+ /*HEADER / NAVBAR STYLING*/
+
+ header {
+     display: flex;
+     justify-content: center;
+ }
+
+
+  main {
+      display: flex;
+      justify-content: center;
+  }
+.cust-styling-navbar{
+    /*width: 75%;*/
+    display: flex;
+    justify-content: center;
+}
+
+.main-body-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-body-container {
+    background-color: darkolivegreen;
+    height: 200px;
+}
+
