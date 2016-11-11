@@ -1,0 +1,12 @@
+
+
+.services-body {
+    background-image: url(http://cdn1.lappr.com/garden/gardening.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
