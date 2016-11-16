@@ -1,0 +1,74 @@
+body {
+    padding: 50px;
+}
+
+.trigger {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #999;
+    background: #ddd;
+}
+
+.box {
+    display: inline-block;
+    background: salmon;
+    height: 200px;
+    width: 200px;
+    transition: all 300ms ease-in-out;
+}
+
+.trigger:hover .box {
+    width: 500px;
+    background: teal;
+}
+
+.btn-container {
+    border: 1px blue solid;
+    padding: 50px;
+    margin-top: 50px;
+    background: -webkit-linear-gradient(315deg, #55efcb 0%, #1e5799);
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    border-radius:10px;
+    transform: rotate(360deg);
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+}
+
+ul {
+    float: left;
+}
+
+.menu {
+    visiblity: visible;
+    position: absolute;
+    padding: 20px;
+
+}
+
+.menu .hidden {
+    visibility: hidden;
+}

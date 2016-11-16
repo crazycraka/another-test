@@ -1,0 +1,19 @@
+.quote-container {
+    width: 80%;
+    margin: 10px;
+    background: lightblue;
+    margin: auto;
+    border: 5px solid black;
+    padding: 5px;
+
+}
+
+.quote-container {
+    margin: auto;
+}
+
+.quote-container ul li{
+    border: 2px solid black;
+    margin: auto;
+    list-style: none;
+}
