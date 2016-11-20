@@ -1,0 +1,36 @@
+<html ng-app="swapiApp">
+
+    <head>
+        <title>swapi api</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body ng-controller="mcontrol">
+        <header>stuff is in here</header>
+
+        <main>
+            {{conTest}}
+            {{servTest}}
+            <!--{{swapiResults}}-->
+            <input placeholder="search for..." ng-model="searchForThis">
+            {{people.name}}
+            <!--{{swapiResults}}-->
+
+
+            <div class="result-container">
+                <ul ng-repeat="swapiResult in swapiResults">
+                    <li>{{swapiResult.name}}</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer></footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="mcontrol.js"></script>
+        <script src="mservice.js"></script>
+    </body>
+
+</html>
